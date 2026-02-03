@@ -1,0 +1,69 @@
+# ================================
+# CodeIgniter Environment Files
+# ================================
+.env
+.env.*
+
+# ================================
+# Writable Directory (CI4)
+# ================================
+writable/*
+!writable/.gitkeep
+
+# Ignore logs, cache, sessions, uploads
+writable/cache/*
+writable/logs/*
+writable/session/*
+writable/uploads/*
+writable/debugbar/*
+
+# ================================
+# Vendor (Composer dependencies)
+# ================================
+vendor/
+
+# ================================
+# Node / Frontend (if used)
+# ================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ================================
+# Build / Dist Files
+# ================================
+dist/
+build/
+
+# ================================
+# IDE / Editor Files
+# ================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ================================
+# OS Generated Files
+# ================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ================================
+# PHP Cache / Temp Files
+# ================================
+*.log
+*.cache
+*.tmp
+
+# ================================
+# PHPUnit / Test Cache
+# ================================
+.phpunit.result.cache
+
+# ================================
+# Composer Lock (Optional)
+# ================================
+# composer.lock   # Uncomment ONLY if you don't want to track it
